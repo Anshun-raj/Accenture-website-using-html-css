@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Website</title>
+</head>
+<link rel="stylesheet" href="Style.css">
+<style>
+    .main {
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 10, 20, 0.6), rgba(0, 10, 20, 0.6)), url(feedback.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .form h1 {
+        margin-left: 45%;
+        margin-top: 2%;
+        color: white;
+    }
+    
+    .f1 {
+        width: 250px;
+        height: 250px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: black;
+        margin: auto;
+        color: white;
+        position: relative;
+    }
+    
+    #b {
+        margin-left: 30%;
+        padding: 5px 30px 5px 30px;
+        transition: 0.5s;
+        font-weight: 600;
+    }
+    
+    #b:hover {
+        background-color: coral;
+        color: white;
+        border-radius: 3px;
+    }
+    
+    .z {
+        margin-top: 11.5%;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="child">
+            <img src="Accenture-Logo-removebg-preview (1).png">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Service.html">Service</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="form">
+            <h1>Rate Us</h1>
+            <form class="f1" method="get" action="Confirm.html">
+                Name: <input type="text" placeholder="enter your name"><br><br><br> Age: <input type="number" placeholder="enter your age"><br><br><br> City: <input type="text" placeholder="enter your city"><br><br><br> Rating:
+                <select>
+                     <option>1</option>
+                     <option>2</option>
+                     <option>3</option>
+                     <option>4</option>
+                     <option>5</option>
+                </select><br><br><br>
+                <button type="submit" id="b">Submit</button>
+            </form>
+        </div>
+
+        <div class="z">
+            <ul>
+                <li><a href="Subscribe.html">Subscribe</a></li>
+                <li><a href="Feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
